@@ -1,0 +1,54 @@
+[
+    {
+        "id": "213ba28d.4a5ffe",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "839ff5be.2fce88",
+        "type": "inject",
+        "z": "213ba28d.4a5ffe",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            [
+                "491a9be2.9a9e44"
+            ]
+        ]
+    },
+    {
+        "id": "491a9be2.9a9e44",
+        "type": "debug",
+        "z": "213ba28d.4a5ffe",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    }
+]
